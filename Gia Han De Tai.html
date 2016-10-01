@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gia Hạn Đề Tài</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style >
+  	input{
+ 
+  	}
+  </style>
+</head>
+<body>
+<div class="container">
+	<img src= "Image/Logopic.jpg" align="center" width="100%"/>
+<!--Thanh Trang Chu-->
+	<nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+			<ul class="nav navbar-nav">
+				<li><a href="aTrang Chu.html">Trang Chủ</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+	         	<li><a href="mChinh Sua Thong Tin.html">(Ahihi)</a></li>
+		        <li>
+		        	<div class="dropdown">
+				    <a data-toggle="dropdown" class="dropdown-toggle">
+				      Thông Báo
+				      <span class="caret"></span>
+				    </a>
+				    <ul class="dropdown-menu">
+				      <li><a href="#">Thông báo 1</a></li>
+				      <li><a href="#">Thông báo 2</a></li>
+				      <li><a href="#">Thông báo 3</a></li>
+				      <li><a href="#">Thông báo 4</a></li>
+				      <li><a href="#">Thông báo 5</a></li>
+				      <li><a href="#">Thông báo 6</a></li>
+				      <li><a href="#">Thông báo 7</a></li>
+				      <li><a href="#">Thông báo 8</a></li>
+				      <li><a href="#">Thông báo 9</a></li>
+				      <li><a href="#">Thông báo 10</a></li>		      
+					  <li class="divider"></li>
+					  <li align="center"><a href="aTrang Chu - Thong Bao - Chi Tiet.html">Xem tất cả</a></li>
+				    </ul>
+				  </div>
+		        </li>
+		        <li><a href="#">Đăng Xuất</a></li>
+	        </ul>
+      </div>
+    </nav>
+<!--Noi Dung-->
+<div class="row">
+	<div class="col-sm-8">
+		<h3 align="center" ;">Gia Hạn Đề Tài</h3>
+		<div style="margin-bottom:30px">
+		    <!--de tai dang ky-->
+			<div >
+				<label for="TenDeTai" >Tên Đề Tài</label>
+				<input style="width:87%" type="text" name="TenDeTai">
+			</div>
+			<div >
+				<label for="MaSoDeTai">Mã Số Đề Tài</label>
+				<input style="width:85%;" type="text" name="MaSoDeTai">
+			</div>
+			<div >
+				<label for="ThoiGianGiaHan">Thời Gian Gia Hạn</label>
+				<input style="width:80%;" type="date" name="ThoiGianGiaHan">
+			</div>
+			<div >
+				<label for="LyDo">Lý Do</label>
+				<input style="width:92%; height:75px;" type="text" name="LyDo">
+			</div>
+			
+		</div>
+		<div align="center">
+			  <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Gia Hạn</button>
+			  <div class="modal fade" id="myModal" role="dialog">
+			    <div class="modal-dialog">
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <h4 class="modal-title">Gia Hạn?</h4>
+			        </div>
+			        <div class="modal-body">
+			          <p>Bạn có muốn gia hạn hay không?</p>
+			        </div>
+			        <div align="center" class="modal-footer">
+			          <button type="button" class="btn btn-default" data-toggle="modal" data-target="#DongY">Đồng Ý</button>
+			          <button type="button" class="btn btn-warning" data-dismiss="modal">Hủy</button>
+			        </div>
+			      </div>
+			    </div>
+			    		<!--Xac Nhan Dong y doi thong tin-->
+			    		  <div class="modal fade" id="DongY" role="dialog">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <h4 class="modal-title">Thành Công!</h4>
+						        </div>
+						        <div class="modal-body">
+						          <p>Bạn đã gia hạn thành công</p>
+						        </div>
+						        <div align="center" class="modal-footer">
+						          <a href="aTrang Chu.html"><button type="button" class="btn btn-default">OK</button></a>
+						        </div>
+						      </div>
+						    </div>
+						  </div>
+			  </div>
+			<a href="aTrang Chu.html"><button type="button" class="btn btn-default">Hủy</button></a>	
+	</div>
+	</div>
+	
+
+  <!--button ben trai-->
+  <div align="center" style="width:30%;" class="col-sm-4">
+  		<a href="aTrang Chu.html"><button type="button" style="width: 250px; height: 80px; margin-top: 50px" class="btn btn-primary"><h3>Đề Tài Của Tôi</h3></button></a>
+  		<a href="Dang Ky De Tai.html"><button type="button" style="width: 250px; height: 80px; margin-top: 10px" class="btn btn-success"><h3>Tạo Đề Tài Mới</h3></button></a>
+  		<a href="Nop De Tai.html"><button type="button" style="width: 250px; height: 80px; margin-top: 10px" class="btn btn-warning"><h3>Nộp Đề Tài</h3></button></a>
+  </div>
+
+</div>
+
+</div>
+</body>
+</html>

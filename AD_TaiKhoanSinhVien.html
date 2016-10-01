@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/CacDeTaiDangDuocHuongDan.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<meta charset="utf-8"/>
+<style type="text/css">
+		.divcustom:hover{
+			background-color: pink;
+			
+		}
+
+	
+</style>
+</head>
+<body>
+
+<div class="table">
+	<table class="table table-bordered table-hover ">
+			<thead>
+				<tr style="background-color:silver">
+					<th>Account</th>
+					<th>Last Name</th>
+					<th>First Name</th>
+					<th>StudentID</th>
+					<th>Department</th>
+					<th>Email</th>
+					<th>Password</th>
+				</tr>
+			</thead>
+			<tbody >
+				<tr >
+			        <td>14110127</td>
+			        <td>Đoàn Nguyễn Phương</td>
+			        <td>Nghi</td>
+			        <td>14110127</td>
+			        <td>IT</td>
+			        <td>14110127@gmail.com</td>
+			        <td>84fhui5hfui5hfkwjh4lf5</td>
+			    </tr>
+			    <tr>
+			        <td>14110133</td>
+			        <td>Trần Thắng</td>
+			        <td>Minh</td>
+			        <td>14110133</td>
+			        <td>IT</td>
+			        <td>14110133@gmail.com</td>
+			        <td>895fy4hf489gh8h5g984</td>
+			    </tr>
+			    <tr>
+			        <td>14110044</td>
+			        <td>Nguyễn Minh Hiếu </td>
+			        <td>Hào</td>
+			        <td>IT</td>
+			        <td>14110044</td>
+			        <td>14110044@gmail.com</td>
+			        <td>8v9yethjve9tuvj8j</td>
+			    </tr>
+			</tbody>
+		</table>
+
+</div></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+
+	<div class="row" style="text-align: center ;margin-bottom:20px">
+		<div class="btn btn-info"  data-target="#AddStudent" data-toggle="modal">Add</div>
+			<div class="modal" id="AddStudent" tabindex="-1">
+				<div class="modal-dialog">
+					<div class="modal-content" style="text-align: left">
+						<div class="modal-header">
+							<h4 class="model-title">Add Student</h4>
+						</div>
+						<div class="modal-body">
+							<div class="form">
+								<div class="form-group">
+									<label for="inputAccount">Account</label>
+									<input class="form-control"  type="text" id="inputAccount">
+								</div>
+								<div class="form-group">
+									<label for="inputLastName">Last name</label>
+									<input class="form-control" type="text" id="inputLastName">
+								</div>
+								<div class="form-group">
+									<label for="inputFirstName">First name</label>
+									<input class="form-control" type="text" id="inputFirstName">
+								</div>
+								<div class="form-group">
+									<label for="inputSID">Student ID</label>
+									<input class="form-control" type="text" id="inputSID">
+								</div>
+								<div class="form-group">
+									<label for="inputDepartment">Department</label>
+									<input class="form-control"  type="text" id="inputDepartment">
+								</div>
+								<div class="form-group">
+									<label for="inputAccount">Email</label>
+									<input class="form-control" type="text" id="inputAccount">
+								</div>
+								
+								<div class="form-group">
+									<label for="inputAccount">Password</label>
+									<input class="form-control" type="text" id="inputAccount">
+								</div>
+								
+							</div>
+						</div>
+						<div class="modal-footer">
+						<div class="button">
+							<div class="btn btn-primary" type="submit">Add</div>
+							<div class="btn btn-primary" data-dismiss="modal">Close</div>
+						</div>
+						</div>
+				</div>
+			</div>
+		</div>
+		<div class="btn btn-info"  data-target="#Submit" data-toggle="modal">Delete
+		
+		</div>
+		<div class="modal" id="Submit" tabindex="-1">
+			<div class="modal-dialog">
+					<div class="modal-content" style="text-align: left">
+						<div class="modal-header">
+							<h4 class="model-title">Submit</h4>
+						</div>
+						<div class="modal-body">Are you sure? It will be saved in Database
+						</div>
+						<div class="modal-footer">
+							<div class="btn btn-primary" data-dismiss="modal">Sure</div>
+							<div class="btn btn-warning" data-dismiss="modal">Close</div>
+						</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="btn btn-info"  data-target="#EditStudent" data-toggle="modal">Edit</div>
+			<div class="modal" id="EditStudent" tabindex="-1">
+				<div class="modal-dialog">
+					<div class="modal-content" style="text-align: left">
+						<div class="modal-header">
+							<h4 class="model-title">Edit Student</h4>
+						</div>
+						<div class="modal-body">
+							<div class="form">
+								<div class="form-group">
+									<label for="inputAccount">Account</label>
+									<input class="form-control"  type="text" id="inputAccount">
+								</div>
+								<div class="form-group">
+									<label for="inputLastName">Last name</label>
+									<input class="form-control" type="text" id="inputLastName">
+								</div>
+								<div class="form-group">
+									<label for="inputFirstName">First name</label>
+									<input class="form-control" type="text" id="inputFirstName">
+								</div>
+								<div class="form-group">
+									<label for="inputSID">Student ID</label>
+									<input class="form-control" type="text" id="inputSID">
+								</div>
+								<div class="form-group">
+									<label for="inputDepartment">Department</label>
+									<input class="form-control"  type="text" id="inputDepartment">
+								</div>
+								<div class="form-group">
+									<label for="inputAccount">Email</label>
+									<input class="form-control" type="text" id="inputAccount">
+								</div>
+								
+								<div class="form-group">
+									<label for="inputAccount">Password</label>
+									<input class="form-control" type="text" id="inputAccount">
+								</div>
+								
+							</div>
+						</div>
+						<div class="modal-footer">
+						<div class="button">
+							<div class="btn btn-primary" type="submit">Submit</div>
+							<div class="btn btn-primary" data-dismiss="modal">Close</div>
+						</div>
+						</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="btn btn-info"  data-target="#ResetpwdStudent" data-toggle="modal">Reset Password</div>
+			<div class="modal" id="ResetpwdStudent" tabindex="-1">
+				<div class="modal-dialog">
+					<div class="modal-content" style="text-align: left">
+						<div class="modal-header">
+							<h4 class="model-title">Reset PassWord Student Account</h4>
+						</div>
+						<div class="modal-body">
+							<div class="form">
+								<div class="form-group">
+									<label for="inputAccount">Account</label>
+									<input class="form-control"  type="text" id="inputAccount">
+								</div>
+								<div class="form-group">
+									<label for="inputLastName">Last name</label>
+									<input class="form-control" type="text" id="inputLastName">
+								</div>
+								<div class="form-group">
+									<label for="inputFirstName">First name</label>
+									<input class="form-control" type="text" id="inputFirstName">
+								</div>
+								<div class="form-group">
+									<label for="inputSID">Student ID</label>
+									<input class="form-control" type="text" id="inputSID">
+								</div>
+								<div class="form-group">
+									<label for="inputDepartment">Department</label>
+									<input class="form-control"  type="text" id="inputDepartment">
+								</div>
+								<div class="form-group">
+									<label for="inputAccount">Email</label>
+									<input class="form-control" type="text" id="inputAccount">
+								</div>
+								
+								<div class="form-group">
+									<label for="inputAccount">Old Password</label>
+									<input class="form-control" type="text" id="inputAccount">
+								</div>
+								<div class="form-group">
+									<label for="inputAccount">New Password</label>
+									<input class="form-control" type="text" id="inputAccount">
+								</div>
+								
+							</div>
+						</div>
+						<div class="modal-footer">
+						<div class="button">
+							<div class="btn btn-primary" type="submit">Submit</div>
+							<div class="btn btn-primary" data-dismiss="modal">Close</div>
+						</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+
+
+
+</body>
+</html>

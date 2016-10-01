@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/login.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<meta charset="utf-8"/>
+<style type="text/css">
+</style>
+</head>
+<body>
+<div class="container">
+	<img src="images/spkt.jpg" width="100%">
+	<div class="panel  panel-primary">
+		<div class="panel-heading">
+			<ul class="nav nav-tabs">
+				<li class="active" ><a href="#">Đăng nhập</a></li>
+			</ul>
+		</div>
+		<div class="panel-body">
+			<div class="content">
+				<div class="login-container">
+					<form class="form-horizontal">
+						<div class="form-group">
+							<div class="row">
+								<div class="col-md-offset-2 col-md-3">
+									<div class="radio">
+										<label><input type='radio' name="userType" value="student"/>Sinh viên</label>
+									</div>
+								</div>
+								<div class="col-md-7">
+									<div class="radio">
+										<label><input type='radio' name="userType" value="professor"/>Giảng viên</label>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-offset-2 col-md-3">
+									<div class="radio">
+										<label><input type='radio' name="userType" value="admin"/>Admin</label>
+									</div>
+								</div>
+								<div class="col-md-7">
+									<div class="radio">
+										<label><input type='radio' name="userType" value="staff"/>Nhân viên phòng quản lý</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-md-3" for="username">Username:</label>
+							<div class="col-md-9">
+								 <input type='text' class="form-control" id="username" placehold="Username"/>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-md-3" for="password">Password:</label>
+							<div class="col-md-9">
+								 <input type='password' class="form-control" id="password" placehold="Password"/>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-md-offset-3 col-md-9">
+								<div class="checkbox">
+									<label><input type='checkbox' name="rememberMe"/>Remember me</label>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-md-offset-3 col-md-9">
+								<button class="btn btn-primary" type='submit'>Đăng nhập</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

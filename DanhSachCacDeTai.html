@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/DanhSachCacDeTai.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/DanhSachCacDeTai.js"></script>
+<meta charset="utf-8"/>
+<style type="text/css">
+</style>
+</head>
+<body>
+<div class="container">
+	<img src="images/spkt.jpg" width="100%">
+	<nav class="navbar navbar-inverse">
+	  	<div class="container-fluid">
+	    	<ul class="nav navbar-nav">
+		      <li ><a href="#">Báo cáo đề tài</a></li>
+		      <li class="active"><a href="#">Danh sách đề tài</a></li>
+		      <li ><a href="#">Đăng ký đề tài</a></li>
+		    </ul>
+		    <ul class="nav navbar-nav navbar-right">
+			    <li ><a href="#">Thông tin cá nhân</a></li>
+			    <li ><a href="#">Đăng xuất</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="row">
+		<div class="col-sm-3">
+			<nav class="navbar navbar-inverse sidebar" role="navigation">
+			    <div class="container-fluid">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>      
+			    </div>
+			    <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+			      <ul id = 'leftMenu' class="nav navbar-nav">
+			        <li id="leftMenuBtn1" class="active"><a href="CacDeTaiDangDuocHuongDan.html" target="menuContentFrame">Các dề tài đang hướng dẫn</a></li>   
+			        <li id="leftMenuBtn2"><a href="CacDeTaiDuocPhanCongPhanBien.html" target="menuContentFrame">Các đề tài được phân công phản biện</a></li>   
+			        <li id="leftMenuBtn3"><a href="CacDeTaiChoPheDuyet.html" target="menuContentFrame">Các đề tài chờ phê duyệt để thực hiện</a></li>   
+			        <li id="leftMenuBtn4"><a href="CacDeTaiDaDuocDangKy.html" target="menuContentFrame">Các đề tài dã được đăng ký</a></li>  
+			        <li id="leftMenuBtn5"><a href="DanhSachDeNghiHuy.html" target="menuContentFrame">Các đề tài đề nghị hủy</a></li>  
+			        <li id="leftMenuBtn6"><a href="DuyetDeTai.html" target="menuContentFrame"	>Duyệt đề tài</a></li>   
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+		</div>
+		<div class="col-sm-9">
+			<div class="menu-content">
+				<iframe src="CacDeTaiDangDuocHuongDan.html" name="menuContentFrame" height="500px" width="100%"></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

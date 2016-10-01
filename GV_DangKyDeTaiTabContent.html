@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<meta charset="utf-8"/>
+<style type="text/css">
+</style>
+</head>
+<body>
+<div class="container" >
+	<div style="text-align: center;">
+		<h3>Đăng Ký Đề Tài</h3>
+	</div>
+	<form class="form-horizontal">
+		<div class="form-group">
+			<label class="control-label col-md-3" for="projectName">Tên đề tài:</label>
+			<div class="col-md-7">
+				<input type="text" class="form-control" name="projectName"/>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-md-3" for="description">Mô tả:</label>
+			<div class="col-md-7">
+				<textarea  rows="10" class="form-control" name="description"></textarea>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-md-3" for="professor">Người hướng dẫn:</label>
+			<div class="col-md-7">
+				<input type="text" class="form-control" name="professor"/>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-md-3" for="leader">MSSV nhóm trưởng:</label>
+			<div class="col-md-7">
+				<input type="text" class="form-control" name="leader"/>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-md-3" for="members">MSSV nhóm trưởng:</label>
+			<div class="col-md-7">
+				<textarea  rows="4" class="form-control" name="members"></textarea>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-md-3" for="members">MSSV nhóm trưởng:</label>
+			<div class="col-md-7">
+				<textarea  rows="4" class="form-control" name="members"></textarea>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-md-3" for="responsiblePerson">Chủ nhiệm để tài:</label>
+			<div class="col-md-7">
+				<input class="form-control" name="responsiblePerson"/>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-md-3" for="fund">Kinh phí:</label>
+			<div class="col-md-7">
+				<input type = "number" step="1000" min="0" class="form-control" name="fund"/>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-md-3" for="beginDate">Thời gian thực hiện:</label>
+			<div class="col-md-3">
+				<input type = "date" class="form-control" name="beginDate"/>
+			</div>
+			<label class="control-label col-md-1" for="endDate">Đến:</label>
+			<div class="col-md-3">
+				<input type = "date" class="form-control" name="endDate"/>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-md-3" for="major">Lĩnh vực nghiên cứu:</label>
+			<div class="col-md-2">
+				<select class="form-control" name="major">
+					<option value="chuaBiet">Chưa biết</option>
+				</select>
+			</div>
+			<label class="control-label col-md-3" for="type">Loại hình nghiên cứu:</label>
+			<div class="col-md-2">
+				<select class="form-control" name="type">
+					<option value="coban">Cơ bản</option>
+					<option value="ungdung">Ứng dụng</option>
+					<option value="trienkhai">Triển khai</option>
+				</select>
+			</div>
+		</div>
+	</form>
+	
+</div>
+</body>
+</html>

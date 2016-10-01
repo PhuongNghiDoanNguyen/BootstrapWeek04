@@ -1,0 +1,26 @@
+$(document).ready(function(){
+	$('#leftMenuBtn1').click(function(){
+		$('#leftMenu').parent().find('.active').removeClass('active');
+		$('#leftMenuBtn1').addClass('active');
+	});
+	$('#leftMenuBtn2').click(function(){
+		$('#leftMenu').parent().find('.active').removeClass('active');
+		$('#leftMenuBtn2').addClass('active');
+	});
+	$('#leftMenuBtn3').click(function(){
+		$('#leftMenu').parent().find('.active').removeClass('active');
+		$('#leftMenuBtn3').addClass('active');
+	});
+	$('#leftMenuBtn4').click(function(){
+		$('#leftMenu').parent().find('.active').removeClass('active');
+		$('#leftMenuBtn4').addClass('active');
+	});
+	$('#leftMenuBtn5').click(function(){
+		$('#leftMenu').parent().find('.active').removeClass('active');
+		$('#leftMenuBtn5').addClass('active');
+	});
+	$('#leftMenuBtn6').click(function(){
+		$('#leftMenu').parent().find('.active').removeClass('active');
+		$('#leftMenuBtn6').addClass('active');
+	});
+});
